@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80a90616aff04e54690487b9c981d893, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  level: Level 1
+  timer: 200
+  obstacles:
+  - prefab: {fileID: 8575912341458910647, guid: b8d0f93b55931684690902a35bf438b4, type: 3}
+    count: 80
+  enemies:
+  - prefab: {fileID: 7374271475591929616, guid: 1b7f16cff0f7593478e47b18c66c7e47, type: 3}
+    count: 10
+  - prefab: {fileID: 1743881712295281411, guid: a32935746bcd5c546a40128029765085, type: 3}
+    count: 3
+  powerUps:
+  - prefab: {fileID: 263403503081973101, guid: a42021c13d187904b89b6c62c8da0380, type: 3}
+    count: 1
+  gatePrefab: {fileID: 2176547226895484878, guid: fc54610146b91834eb20f102aaad2822, type: 3}

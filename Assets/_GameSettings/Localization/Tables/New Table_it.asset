@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: New Table_it
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: it
+  m_SharedData: {fileID: 11400000, guid: 7cf39e3327388414aaa5aeff9da784e4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 139507216384
+    m_Localized: Gioca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209195577344
+    m_Localized: Opzioni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299993870336
+    m_Localized: Continua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356684083200
+    m_Localized: Esci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 391018655744
+    m_Localized: Indietro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443950772224
+    m_Localized: Luminosita
+    m_Metadata:
+      m_Items: []
+  - m_Id: 520740089856
+    m_Localized: Risoluzione
+    m_Metadata:
+      m_Items: []
+  - m_Id: 580110462976
+    m_Localized: Tutto schermo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 665158365184
+    m_Localized: Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 699945922560
+    m_Localized: Musica
+    m_Metadata:
+      m_Items: []
+  - m_Id: 732938317824
+    m_Localized: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 765930713088
+    m_Localized: Mappatura tasti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 860243832832
+    m_Localized: Nessun salvataggio trovato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1096643194880
+    m_Localized: Ligua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1194680856576
+    m_Localized: Tempo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1497434107904
+    m_Localized: Vite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871247257600
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1894282375168
+    m_Localized: Grafica
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1920874262528
+    m_Localized: Gameplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2910364337909760
+    m_Localized: Riprendi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2910903138201600
+    m_Localized: Torna al Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4709438984761344
+    m_Localized: Esc - Pausa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4709442864492544
+    m_Localized: WASD - Movimento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4709444500271104
+    m_Localized: Spazio - Bomba
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

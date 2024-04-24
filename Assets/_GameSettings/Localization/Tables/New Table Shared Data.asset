@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: New Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: New Table
+  m_TableCollectionNameGuidString: 7cf39e3327388414aaa5aeff9da784e4
+  m_Entries:
+  - m_Id: 139507216384
+    m_Key: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209195577344
+    m_Key: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299993870336
+    m_Key: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356684083200
+    m_Key: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 391018655744
+    m_Key: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443950772224
+    m_Key: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 520740089856
+    m_Key: Resolutions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 580110462976
+    m_Key: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 665158365184
+    m_Key: Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 699945922560
+    m_Key: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 732938317824
+    m_Key: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 765930713088
+    m_Key: Keyboard mapping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 860243832832
+    m_Key: No Save File Found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1096643194880
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1194680856576
+    m_Key: Timer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1497434107904
+    m_Key: Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871247257600
+    m_Key: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1894282375168
+    m_Key: Graphics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1920874262528
+    m_Key: Gameplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2910364337909760
+    m_Key: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2910903138201600
+    m_Key: Return to Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4709438984761344
+    m_Key: Esc - Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4709442864492544
+    m_Key: WASD - Movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4709444500271104
+    m_Key: Space - Bomb
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1205172740500488264
+  references:
+    version: 2
+    RefIds:
+    - rid: 1205172740500488264
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1712785343452
