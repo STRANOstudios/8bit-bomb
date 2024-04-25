@@ -94,6 +94,7 @@ public class GameManager : MonoBehaviour
     {
         indexLevel = 0;
         leftLife = 2;
+        explosionRadius = 1;
         enemies.Clear();
         MenuController.ReturnButton();
     }
