@@ -49,7 +49,7 @@ These steps should allow you to copy a Unity project from GitHub, set it up in U
 
 ### Release
 
-[Download](https://github.com/STRANOstudios/8bit-bomb/releases/tag/Version1.2)
+[Download](https://github.com/STRANOstudios/8bit-bomb/releases/tag/Version1.3)
 
 ## Contributors
 
