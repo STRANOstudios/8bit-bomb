@@ -55,5 +55,5 @@ These steps should allow you to copy a Unity project from GitHub, set it up in U
 
 Andrea Frigerio
 
-- audio -> Youtube Original SFX and [8 bit Instrumental](https://youtu.be/ec56HRfXUeI)
-- image -> Original Bomberman (NES)
+- audio -> SFX: [The sounds resource](https://www.sounds-resource.com/nes/bomberman/sound/3717/) and Music: [8 bit Instrumental](https://youtu.be/ec56HRfXUeI)
+- image -> [The spriters resource](https://www.spriters-resource.com/nes/bomberman/sheet/7884/) edit By Andrea Frigerio
