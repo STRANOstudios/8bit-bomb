@@ -13,6 +13,8 @@ public class ShootingManager : MonoBehaviour
     private BombPool bombPool;
     private bool canShoot = true;
 
+    private int addBomb = 0;
+
     public static int explosionRadius = 1;
 
     private void Start()
@@ -20,6 +22,9 @@ public class ShootingManager : MonoBehaviour
         explosionRadius = GameManager.Instance.ExplosionRadius;
         inputHandler = InputHandler.Instance;
         bombPool = BombPool.Instance;
+
+        bombMagazine -= addBomb;
+        addBomb = 0;
     }
 
     private void Update()
@@ -70,6 +75,7 @@ public class ShootingManager : MonoBehaviour
     void BombRestore()
     {
         bombMagazine++;
+        addBomb = 0;
         if (bombsPosition.Count > 0) bombsPosition.RemoveAt(0);
     }
 
@@ -83,6 +89,7 @@ public class ShootingManager : MonoBehaviour
                 break;
             case PowerUpType.MoreBombs:
                 bombMagazine++;
+                addBomb = 1;
                 break;
         }
     }

@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     private List<GameObject> enemies = new();
     private int explosionRadius = 1;
 
+    private int addExplosion = 0;
+
     private void Awake()
     {
         #region Singleton
@@ -58,6 +60,10 @@ public class GameManager : MonoBehaviour
     private void DecreaseLife()
     {
         leftLife--;
+
+        explosionRadius -= addExplosion;
+        addExplosion = 0;
+
 #if UNITY_EDITOR
         SceneManager.LoadScene(levels[indexLevel].Name);
 #else
@@ -75,6 +81,7 @@ public class GameManager : MonoBehaviour
         enemies.Clear();
 
         indexLevel++;
+        addExplosion = 0;
 
         if (indexLevel > levels.Count - 1)
         {
@@ -95,6 +102,7 @@ public class GameManager : MonoBehaviour
         indexLevel = 0;
         leftLife = 2;
         explosionRadius = 1;
+        addExplosion = 0;
         enemies.Clear();
         MenuController.ReturnButton();
     }
@@ -103,17 +111,21 @@ public class GameManager : MonoBehaviour
 
     public int LeftLife => leftLife;
 
-    public List<GameObject> Enemies 
-    { 
-        get => enemies; 
-        set => enemies = value; 
+    public List<GameObject> Enemies
+    {
+        get => enemies;
+        set => enemies = value;
     }
 
     public Level Level => levels[indexLevel];
 
-    public int ExplosionRadius 
-    { 
-        get => explosionRadius; 
-        set => explosionRadius = value; 
+    public int ExplosionRadius
+    {
+        get => explosionRadius;
+        set
+        {
+            explosionRadius = value;
+            addExplosion = 1;
+        }
     }
 }

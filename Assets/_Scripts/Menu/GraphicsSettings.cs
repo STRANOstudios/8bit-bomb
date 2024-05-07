@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
+using static PlayerPrefsUtils;
 
 public class GraphicsSettings : MonoBehaviour
 {
@@ -125,18 +126,5 @@ public class GraphicsSettings : MonoBehaviour
 
         fullScreenToggle.isOn = !_isFullScreen;
         Screen.SetResolution((int)GetSavedFloat("Resolution_width"), (int)GetSavedFloat("Resolution_height"), _isFullScreen);
-        Screen.fullScreen = _isFullScreen;
-    }
-
-    float GetSavedFloat(string key)
-    {
-        if (PlayerPrefs.HasKey(key)) return PlayerPrefs.GetFloat(key);
-        return 0f;
-    }
-
-    float GetSavedInt(string key)
-    {
-        if (PlayerPrefs.HasKey(key)) return PlayerPrefs.GetInt(key);
-        return 0;
     }
 }
